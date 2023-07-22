@@ -1,0 +1,147 @@
+* {
+    /*   border: 5px solid pink; */
+    }
+    
+    body {
+      margin: 0;
+      padding: 0;
+      color: #1D1F20;
+      background-color: azure;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 22px;
+    }
+    
+    .main-container {
+      position: relative; 
+      top: 0;
+      margin: 0;
+      padding: 0;
+    }
+    
+    
+    /**header**/
+    header {
+      position: relative;
+      top: 0;
+      width: 100%;
+      overflow: auto;
+      margin: 0;
+      padding: 30px 25px 50px;
+      background-color: rgb(122, 223, 172);
+    }
+    
+    header > h5 {
+      float: left;
+      color: rgb(236, 26, 26);
+      font-family: 'Playfair Display', serif;
+      margin: 0;
+      padding: 10px;
+      border: 3px solid rgb(7, 8, 8);
+      font-size: 20px;
+    }
+    
+    .site-menu {
+      width: auto;
+      overflow: auto;
+    }
+    
+    .site-menu > ul {
+      float: right;
+      margin: 0;
+      padding: 10px 0 0 0;
+    }
+    
+    ul > li {
+      float: left;
+      list-style: none;
+      margin: 0 15px;
+      padding: 0;
+    }
+    
+    ul > li:nth-child(4) {
+      margin-right: 10px;
+    }
+    
+    li > a {
+      color: rgb(6, 8, 8);
+    }
+    
+    a:link { 
+      color: rgb(113, 17, 143);
+      text-decoration: none;
+    }
+    
+    a:visited {
+      color: rgb(4, 4, 185)
+    }
+    
+    a:hover {
+      color: #997e6f;
+    }
+    
+    a:active {
+      color: #BC8F8F;
+    }
+    
+    
+    /**content**/
+    div.content {
+      position: relative; 
+      top: 0;
+      clear: left;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    
+    div.banner {
+      position: relative;
+      top: 0;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .banner-img {
+      position: relative;
+    }
+    
+    .text-banner {
+      position: absolute;
+      top: 200px;
+      width: 100%;
+      text-align: center;
+      background-color: cornsilk;
+    }
+    
+    .text-banner > h2 {
+      color: deeppink;
+      font-size: 2.25em; 
+      margin: 0 0 3px;
+      padding: 15px;
+      text-transform: uppercase;
+      font-weight: bolder;
+    }
+    
+    .text-banner > h3 {
+      color: rgb(207, 8, 48);
+      margin: 0 0 3px;
+      padding: 15px;
+      text-align: center;
+      font-style: italic;
+      font-weight: lighter;
+    }
+    
+    article {
+      width: 960px;
+      margin: 0 auto;
+      padding: 10px 0;
+      text-align: center;
+      background-color: azure;
+    }
+    
+    section {
+      width: 100%;
+      margin: 50px 0;
+      padding: 55px 0;
+      overflow: auto;
+    }

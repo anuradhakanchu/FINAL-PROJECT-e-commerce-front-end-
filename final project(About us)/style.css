@@ -1,0 +1,73 @@
+ *{
+    margin: 0px;
+    font-size: 20x;
+    font-weight: bolder;
+    background-color: bisque;
+
+ }
+ /* info-contact-about us */
+ #contact-container {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    overflow: auto;
+  }
+  .heading {
+    width: 45%;
+    margin: 0;
+    padding: 0 30px;
+    display: inline-block;
+    text-align: justify;
+    border-right: 1px solid #FDA83E;
+  }
+  .heading h3 {
+    text-align: center;
+    margin: 0;
+    padding: 15px 0 10px;
+    color: blue;
+    font-size: 30px;
+  }
+  
+  section#info {
+    position: relative;
+    top: 0;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  
+  .heading-image :hover {
+      transform: (5,4);
+      flex: 1;
+      margin-right: 10px;
+      overflow: hidden;
+
+  }
+  .heading-image img {
+      max-width: 100%;
+      height: auto;
+      transition: 0.5s ease;
+  }
+  
+  .heading > p {
+    font-weight: bolder;
+    color: green;
+    text-decoration-color: #FDA83E;
+    font-family: sans-serif;
+    font-size: large;
+  }
+  
+  .info-list {
+    margin: 0;
+    padding: 0 0 30px 0;
+    overflow: auto;
+  }
+  
+  h6.info-title {
+    width: 18%;
+    font-weight: lighter;
+    text-transform: uppercase;
+    border-bottom: 1px solid #FDA83E;
+  }
+  

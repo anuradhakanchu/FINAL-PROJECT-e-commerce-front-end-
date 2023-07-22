@@ -1,0 +1,87 @@
+section {
+    width: 100%;
+    margin: 50px 0;
+    padding: 55px 0;
+    overflow: auto;
+  }
+  
+  h2.section-title {
+    width: 30%;
+    color: green;
+    font-size: 2.5em; 
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #696867;
+    text-align: center;
+  }
+  
+  ul.deals-list {
+    position: inherit;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  .deals-list > li {
+    position: relative;
+    top: 0;
+    margin: 0;
+    padding: 30px 45px;
+  }
+  
+  .deals-list > li:last-child {
+    padding-bottom: 0px;
+  }
+  
+  h3.deals-title {
+    width: 300px;
+    color: orangered;
+    margin: 0 auto;
+    padding-bottom: 8px;
+    font-size: 20px;
+  }
+  
+  p.deals-text {
+    font-weight: bold;
+   font-family: sans-serif;
+  }
+  .deals-list img {
+    transition: (35);
+  }
+  
+  section > div {
+    width: 75%;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: auto;
+  }
+  
+  /* occasions */
+  #occasions {
+    padding-bottom: 0;
+  }
+  
+  .wrapper {
+    margin-top: 55px;
+    padding: 0px;
+  }
+  
+  div.occasion-list {
+    float: left;
+    width: 30%;
+    margin: 0 10px;
+    padding: 20px 15px;
+  }
+  
+  .occasion-list li {
+    margin-bottom: 30px;
+    font-family: sans-serif;
+  }
+  
+  .fa {
+    color: coral;
+    margin-right: 3px;
+  }
